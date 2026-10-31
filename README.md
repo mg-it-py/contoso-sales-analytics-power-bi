@@ -3,7 +3,6 @@
 **Analiza sprzedaży, rentowności, kanałów i klientów**
 
 **Narzędzia:** Power BI Desktop · Power Query · DAX  
-**Autorka:** Małgorzata Gąsior
 
 Projekt portfolio przedstawia czterostronicowy raport sprzedażowy przygotowany w Power BI. Jego celem jest pokazanie, jak zmieniały się wyniki sprzedaży i rentowność oraz które kanały, kategorie produktów i grupy klientów wymagają dalszej analizy.
 
@@ -69,7 +68,6 @@ Model opiera się na tabeli faktów `Sales`, połączonej relacjami jeden do wie
 
 ![Model danych w Power BI](images/model%20view.png)
 
-Pierwotne źródło, warunki wykorzystania oraz waluta nie zostały potwierdzone. Nazwa Contoso odnosi się do oznaczeń w dostarczonym zestawie danych.
 
 ## Przygotowanie danych
 
