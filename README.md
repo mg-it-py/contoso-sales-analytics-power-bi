@@ -65,6 +65,10 @@ Raport jest projektem portfolio opracowanym na dostarczonych danych.
 
 Model opiera się na tabeli faktów `Sales`, połączonej relacjami jeden do wielu z tabelami `Date`, `Product`, `Store` i `Customer`. Miary są uporządkowane w tabeli `_Measures`, a tabele pomocnicze `Comparison Year` i `Sales Bridge Steps` wspierają wybrane wizualizacje.
 
+### Widok modelu danych
+
+![Model danych w Power BI](images/model%20view.png)
+
 Pierwotne źródło, warunki wykorzystania oraz waluta nie zostały potwierdzone. Nazwa Contoso odnosi się do oznaczeń w dostarczonym zestawie danych.
 
 ## Przygotowanie danych
