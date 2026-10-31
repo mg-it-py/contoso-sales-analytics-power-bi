@@ -77,6 +77,7 @@ Szczegóły: [model](docs/MODEL_DANYCH.md), [słownik danych](docs/SLOWNIK_DANYC
 ### 1. Sales Overview
 
 Pięć KPI, miesięczny trend Revenue / Revenue PY, ranking pięciu kategorii oraz dynamiczne komentarze o wyniku, kategorii i kanałach. Strona odpowiada na pytanie: **co zmieniło się w wynikach?**
+![Sales Overview](images/Overview.png)
 
 ### 2. Sales & Channels
 
