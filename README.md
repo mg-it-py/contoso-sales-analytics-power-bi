@@ -6,7 +6,7 @@
 
 Projekt portfolio przedstawia czterostronicowy raport sprzedażowy przygotowany w Power BI. Jego celem jest pokazanie, jak zmieniały się wyniki sprzedaży i rentowność oraz które kanały, kategorie produktów i grupy klientów wymagają dalszej analizy.
 
-![Sales Overview — strona główna raportu Contoso Sales Analytics](images/Overview.png)
+![Sales Overview - strona główna raportu Contoso Sales Analytics](images/Overview.png)
 
 ---
 
@@ -16,19 +16,19 @@ Dla **pełnego 2023 roku**, wszystkich kanałów i kategorii, w porównaniu z pe
 
 | Wskaźnik | 2022 | 2023 | Zmiana |
 |---|---:|---:|---:|
-| Revenue | 47,71 mln | 35,22 mln | −26,2% |
-| Gross Profit | 27,90 mln | 20,67 mln | −25,9% |
+| Revenue | 47,71 mln | 35,22 mln | -26,2% |
+| Gross Profit | 27,90 mln | 20,67 mln | -25,9% |
 | Gross Margin | 58,48% | 58,67% | +0,20 p.p. |
-| Orders | 18 895 | 15 503 | −18,0% |
-| Units Sold | 143 836 | 118 173 | −17,8% |
-| Active Customers | 16 388 | 13 746 | −16,1% |
-| New Customers | 9 010 | 5 890 | −34,6% |
+| Orders | 18 895 | 15 503 | -18,0% |
+| Units Sold | 143 836 | 118 173 | -17,8% |
+| Active Customers | 16 388 | 13 746 | -16,1% |
+| New Customers | 9 010 | 5 890 | -34,6% |
 | Returning Customers | 7 378 | 7 856 | +6,5% |
 | Online Revenue Share | 53,76% | 60,69% | +6,93 p.p. |
 
 Przychód spadł o **26,2%**, a zysk brutto o **25,9%**, mimo niewielkiego wzrostu marży brutto. Spadła zarówno liczba zamówień, jak i średnia wartość zamówienia.
 
-Kanał stacjonarny odpowiadał za około **65,8% łącznego spadku przychodów**. W analizie kategorii największy spadek kwotowy wystąpił w kategorii **Computers** — około **53,1% łącznego spadku**. Są to różne przekroje tych samych danych, dlatego udziałów nie należy sumować.
+Kanał stacjonarny odpowiadał za około **65,8% łącznego spadku przychodów**. W analizie kategorii największy spadek kwotowy wystąpił w kategorii **Computers** - około **53,1% łącznego spadku**. Są to różne przekroje tych samych danych, dlatego udziałów nie należy sumować.
 
 Udział online wzrósł z **53,76% do 60,69%**, chociaż przychód tego kanału również spadł. Było to wynikiem szybszego spadku sprzedaży stacjonarnej.
 
@@ -95,13 +95,13 @@ Pomaga odpowiedzieć na pytanie: **co zmieniło się w wynikach sprzedaży?** Zr
 
 Analiza liczby zamówień, sprzedanych sztuk i średniej wartości zamówienia. Wykres waterfall pokazuje zmianę przychodu według kanału, a pozostałe wizualizacje przedstawiają wyniki online i sklepów stacjonarnych, strukturę sprzedaży oraz miesięczną liczbę zamówień.
 
-![Sales and Channels — analiza zamówień oraz kanałów sprzedaży](images/sales%20%26%20channels.png)
+![Sales and Channels - analiza zamówień oraz kanałów sprzedaży](images/sales%20%26%20channels.png)
 
 ### 3. Product Performance
 
 Analiza przychodów, rentowności i zmian według kategorii produktów. Wykres bąbelkowy zestawia przychód z marżą; wielkość bąbelka odzwierciedla liczbę sprzedanych sztuk. Drugi wykres pokazuje zmianę przychodu kategorii względem poprzedniego roku.
 
-![Product Performance — przychód, marża i zmiana według kategorii](images/product%20performance.png)
+![Product Performance - przychód, marża i zmiana według kategorii](images/product%20performance.png)
 
 ### 4. Customer Overview
 
@@ -109,7 +109,7 @@ Strona pokazuje aktywnych, nowych i powracających klientów, przychód i liczb�
 
 Grupa **Other** jest stałym połączeniem Netherlands, France i Italy. Nie jest dynamiczną kategorią „pozostałe poza Top 5”.
 
-![Customer Overview — aktywność, struktura i lokalizacja klientów](images/customer%20insight.png)
+![Customer Overview - aktywność, struktura i lokalizacja klientów](images/customer%20insight.png)
 
 ## Najważniejsze definicje
 
@@ -131,7 +131,7 @@ Historia zakupów zaczyna się w 2015 roku, dlatego **pierwszy zaobserwowany zak
 
 ## Wybrane miary DAX
 
-Poniższe przykłady pochodzą z dokumentacji projektu i ilustrują przyjętą logikę obliczeń. Nie są automatycznym eksportem końcowego modelu PBIX — przed traktowaniem ich jako dokładnych definicji raportu należy porównać je z miarami w pliku Power BI.
+Poniższe przykłady pochodzą z dokumentacji projektu i ilustrują przyjętą logikę obliczeń. Nie są automatycznym eksportem końcowego modelu PBIX - przed traktowaniem ich jako dokładnych definicji raportu należy porównać je z miarami w pliku Power BI.
 
 ### Revenue
 
@@ -269,24 +269,13 @@ Dodatkowe ograniczenia interpretacji:
 
 ## Wnioski i dalsze kierunki analizy
 
-Wyniki wskazują, że w 2023 roku największą część spadku przychodów zaobserwowano w kanale stacjonarnym, a w przekroju kategorii — w Computers. Jednocześnie spadła liczba nowych klientów, choć liczba powracających wzrosła. Sama analiza nie pozwala wskazać przyczyn tych zmian.
+Wyniki wskazują, że w 2023 roku największą część spadku przychodów zaobserwowano w kanale stacjonarnym, a w przekroju kategorii - w Computers. Jednocześnie spadła liczba nowych klientów, choć liczba powracających wzrosła. Sama analiza nie pozwala wskazać przyczyn tych zmian.
 
 Kolejnymi krokami mogłyby być:
 
-1. **Analiza kategorii Computers** — podział spadku na podkategorie, marki i produkty oraz porównanie wolumenu i średniej ceny.
-2. **Analiza sklepów stacjonarnych** — porównanie wyników poszczególnych sklepów z uwzględnieniem okresu ich działania.
-3. **Analiza klientów** — sprawdzenie, w jakich segmentach zmniejszyła się liczba klientów z pierwszym zaobserwowanym zakupem.
-4. **Uzupełnienie kontekstu** — połączenie wyników z danymi o promocjach, dostępności produktów i działaniach marketingowych, jeśli będą dostępne.
+1. **Analiza kategorii Computers** - podział spadku na podkategorie, marki i produkty oraz porównanie wolumenu i średniej ceny.
+2. **Analiza sklepów stacjonarnych** - porównanie wyników poszczególnych sklepów z uwzględnieniem okresu ich działania.
+3. **Analiza klientów** - sprawdzenie, w jakich segmentach zmniejszyła się liczba klientów z pierwszym zaobserwowanym zakupem.
+4. **Uzupełnienie kontekstu** - połączenie wyników z danymi o promocjach, dostępności produktów i działaniach marketingowych, jeśli będą dostępne.
 
-Są to kierunki dalszej analizy, a nie potwierdzone przyczyny zmian.
-
-## Jak otworzyć raport
-
-Jeśli plik `.pbix` znajduje się w repozytorium:
-
-1. Pobierz go na komputer.
-2. Otwórz w programie **Microsoft Power BI Desktop**.
-3. Korzystaj z filtrów **Year**, **Channel** i **Category**, aby przeanalizować wybrany zakres.
-
-Przy odświeżaniu danych może być konieczne wskazanie lokalizacji źródłowych plików CSV w ustawieniach źródła danych.
 
